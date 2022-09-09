@@ -12,6 +12,14 @@ function Header({name}) {
   <h2 class="heading"> {name} </h2>
   </div>
 }
+function Form({profileImg,input}) {
+  return <div className="formbox">
+   <img className="profile" src={profileImg} alt=""/>
+  
+    <input className="textarea" type="textarea" placeholder="What's on your mind" />
+  
+  </div>
+}
 
 function Hi({profileImg, name,date,text, postImg,like,comment,share}) {
   return <div className="content">
@@ -34,7 +42,8 @@ function Hi({profileImg, name,date,text, postImg,like,comment,share}) {
 
 ReactDOM.render(
 <>
-<Header name="Facebook"/>
+<Header name="facebook"/>
+<Form profileImg={profileImg}/>
 <Hi
   profileImg={dvagoImg}
   name="Dvago"

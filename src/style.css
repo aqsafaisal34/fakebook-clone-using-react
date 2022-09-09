@@ -13,11 +13,18 @@
     width: 500px;
     margin: auto;
     margin-bottom: 20px;
+    border: 1px solid #76787b09;
+    padding-left: 4px;
+    border-radius: 8px;
+    background-color: white;
 }
 
 body{
     background-color: #F0F2F5;
     
+}
+.text{
+    /* padding-left: 4px; */
 }
 
 .profile{
@@ -65,6 +72,21 @@ button{
     padding: 5px;
     padding: 5px 54px;
     cursor: pointer;
+}
+.formbox{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #76787b09;
+    padding-left: 4px;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+.textarea{
+    padding-left: 8px;
+    border: none;
 }
    
 
