@@ -1,0 +1,83 @@
+.heading{
+    text-align: center;
+    background-color: #0c93f4;
+    color: white;
+    margin-top: 0px;
+    padding:4px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #F0F2F5;
+    
+}
+
+.profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline;
+    padding: 3px;
+}
+.name{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    margin-bottom: 0px;
+}
+.pname{
+    color: #76787B;
+    margin-left: 13px;
+
+}
+.head{
+    display: flex;
+}
+
+
+.buttons{
+    margin: 2px;
+   
+    margin-bottom: 20px;
+    border-top: 1px solid #CED0D4;
+    border-bottom: 1px solid #CED0D4;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    padding: 5px;
+   
+    
+}
+button{
+    border: 0px;
+    background-color: white;
+    color: #5B626A;
+    font-size: large;
+    padding: 5px;
+    padding: 5px 54px;
+    cursor: pointer;
+}
+   
+
+
+button:hover{
+    background-color: #F2F2F2;
+}
+
+reaction{
+    display: flex;
+    margin: 10px;
+    color: #76787B;
+}
+.post1{
+    width: 490px;
+}
